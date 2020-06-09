@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "practicaAngularRedes"
+    }
+  },
+  "defaultProject": "practicaAngularRedes",
+  "cli": {
+    "analytics": "cb4d4af1-b2a0-4e0a-8ae6-25bba8240422"
+  }
 }
