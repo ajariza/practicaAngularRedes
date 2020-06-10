@@ -7,7 +7,8 @@ import { RecuperarContrasenaComponent } from './recuperar-contrasena/recuperar-c
 import { ListadoUsuariosComponent } from './listado-usuarios/listado-usuarios.component';
 import { ListadoRecursosComponent } from './listado-recursos/listado-recursos.component';
 
-const appRoutes = [
+
+const routes: Routes = [
   { path: "", component: AppComponent, pathMatch: "full" },
   { path: "login", component: LoginComponent, pathMatch: "full" },
   { path: "register", component: RegistrarUsuarioComponent, pathMatch: "full" },
@@ -15,9 +16,6 @@ const appRoutes = [
   { path: "listadoUsuarios", component: ListadoUsuariosComponent, pathMatch: "full" },
   { path: "listadoRecursos", component: ListadoRecursosComponent, pathMatch: "full" }
 ];
-export const routing = RouterModule.forRoot(appRoutes);
-
-const routes: Routes = [];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
